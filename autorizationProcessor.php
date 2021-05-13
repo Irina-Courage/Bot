@@ -22,7 +22,7 @@ if ($mysqli==false) {
             $_SESSION['lastname']=$result['name'];
             $_SESSION['name']=$result['lastname'];
             $_SESSION['email']=$result['email'];
-            $_SESSION['id']=$result['id'];
+            $_SESSION['ID']=$result['ID'];
         }else{
             print("incorrect");
         }
